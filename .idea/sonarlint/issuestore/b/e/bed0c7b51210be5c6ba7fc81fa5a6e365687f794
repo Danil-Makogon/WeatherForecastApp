@@ -1,0 +1,18 @@
+
+‡
+java:S1488"eImmediately return this expression instead of assigning it to the temporary variable "searchResults".(ίΗρΣψÿÿÿÿ8ΓΏοδ.
+>
+java:S1170"!Make this final field static too.(ΩΎΒ8ΓΏοδ.
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(όÿΈ‘8ΓΏοδ.
+s	java:S116"WRename this field "FORECAST_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΩΎΒ8ΓΏοδ.
+v	java:S116"URename this field "SEARCH_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Τόÿÿÿÿÿ8ΓΏοδ.
+C
+java:S1170"!Make this final field static too.(³Τόÿÿÿÿÿ8ΓΏοδ.
+‚
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "forecast".(ΰ«―Ζϋÿÿÿÿ8ΓΏοδ.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(χώψÿÿÿÿÿ8ΓΏοδ.
+Z
+java:S1128
+"=Remove this unused import 'javax.swing.text.html.HTML.Tag.U'.(Ιξ8ΓΏοδ.
+o
+java:S1128"RRemove this unused import 'com.fasterxml.jackson.databind.PropertyNamingStrategy'.(λ±©8­ίο²ζ.
