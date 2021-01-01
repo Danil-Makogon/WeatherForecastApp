@@ -5,3 +5,93 @@
 2021-01-01 13:50:58 INFO  - The program is finished
 2021-01-01 14:00:24 INFO  - The program is start
 2021-01-01 14:00:34 INFO  - The program is finished
+2021-01-01 17:03:56 DEBUG - Adding [systemProperties] PropertySource with lowest search precedence
+2021-01-01 17:03:56 DEBUG - Adding [systemEnvironment] PropertySource with lowest search precedence
+2021-01-01 17:03:56 DEBUG - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2021-01-01 17:03:56 INFO  - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@694f9431: startup date [Fri Jan 01 17:03:56 CET 2021]; root of context hierarchy
+2021-01-01 17:03:56 DEBUG - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@694f9431: org.springframework.beans.factory.support.DefaultListableBeanFactory@5afa04c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,weatherForecastConfig]; root of factory hierarchy
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Registering bean definition for @Bean method de.telran.weather.service.WeatherForecastConfig.app()
+2021-01-01 17:03:56 DEBUG - Registering bean definition for @Bean method de.telran.weather.service.WeatherForecastConfig.weatherService()
+2021-01-01 17:03:56 DEBUG - Registering bean definition for @Bean method de.telran.weather.service.WeatherForecastConfig.service()
+2021-01-01 17:03:56 DEBUG - Registering bean definition for @Bean method de.telran.weather.service.WeatherForecastConfig.objectMapper()
+2021-01-01 17:03:56 DEBUG - Registering bean definition for @Bean method de.telran.weather.service.WeatherForecastConfig.weatherGateway()
+2021-01-01 17:03:56 DEBUG - Successfully enhanced de.telran.weather.service.WeatherForecastConfig; enhanced class name is: de.telran.weather.service.WeatherForecastConfig$$EnhancerBySpringCGLIB$$b1ba02a9
+2021-01-01 17:03:56 DEBUG - Replacing bean definition 'weatherForecastConfig' existing class name 'de.telran.weather.service.WeatherForecastConfig' with enhanced class name 'de.telran.weather.service.WeatherForecastConfig$$EnhancerBySpringCGLIB$$b1ba02a9'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2021-01-01 17:03:56 DEBUG - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1fc2b765]
+2021-01-01 17:03:56 DEBUG - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@12c8a2c0]
+2021-01-01 17:03:56 DEBUG - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5afa04c: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,weatherForecastConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,app,weatherService,service,objectMapper,weatherGateway]; root of factory hierarchy
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'weatherForecastConfig'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'weatherForecastConfig'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'weatherForecastConfig' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'weatherForecastConfig'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'app'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'app'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'weatherForecastConfig'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'service'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'service'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'weatherForecastConfig'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'service' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'service'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'weatherService'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'weatherService'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'weatherForecastConfig'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'weatherGateway'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'weatherGateway'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'weatherForecastConfig'
+2021-01-01 17:03:56 DEBUG - Creating shared instance of singleton bean 'objectMapper'
+2021-01-01 17:03:56 DEBUG - Creating instance of bean 'objectMapper'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'weatherForecastConfig'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'objectMapper' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'objectMapper'
+2021-01-01 17:03:56 DEBUG - Autowiring by type from bean name 'weatherGateway' via factory method to bean named 'objectMapper'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'weatherGateway' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'weatherGateway'
+2021-01-01 17:03:56 DEBUG - Autowiring by type from bean name 'weatherService' via factory method to bean named 'weatherGateway'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'weatherService' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'weatherService'
+2021-01-01 17:03:56 DEBUG - Autowiring by type from bean name 'app' via factory method to bean named 'service'
+2021-01-01 17:03:56 DEBUG - Autowiring by type from bean name 'app' via factory method to bean named 'weatherService'
+2021-01-01 17:03:56 DEBUG - Eagerly caching bean 'app' to allow for resolving potential circular references
+2021-01-01 17:03:56 DEBUG - Finished creating instance of bean 'app'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'weatherService'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'service'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'objectMapper'
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'weatherGateway'
+2021-01-01 17:03:56 DEBUG - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@44ebcd03]
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'lifecycleProcessor'
+2021-01-01 17:03:56 DEBUG - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2021-01-01 17:03:56 DEBUG - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2021-01-01 17:03:56 DEBUG - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2021-01-01 17:03:56 DEBUG - Returning cached instance of singleton bean 'app'
+2021-01-01 17:03:56 INFO  - The program is start
+2021-01-01 17:04:16 INFO  - The program is finished
