@@ -1,13 +1,10 @@
 package de.telran.weather.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import de.telran.weather.entity.Forecast;
 import de.telran.weather.entity.SearchResult;
 
 import java.net.URL;
-
-import static javax.swing.text.html.HTML.Tag.U;
 
 public class WeatherGateway {
     private final String SEARCH_URL = "https://www.metaweather.com/api/location/search/?query=";
